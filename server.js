@@ -22,12 +22,15 @@ app.get("/", (req, res) => {
   res.json({ message: "Backend is working!" });
 });
 
+app.use("/images", express.static("public/images"));
 // Main routes
 app.use("/api/products", productRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/recommend", recommendationRoutes);
 app.use("/api/interactions", interactionRoutes);
 app.use("/api/orders",orderRoutes);
+
+
 
 // Start server
 const PORT = process.env.PORT || 5000;

@@ -5,7 +5,8 @@ const products = [
         description: "confortable wireless headphones with noise cancellation",
         price: 2999,
         category: "Electronics",
-        image: "/images/headphones.jpg"
+        image: "https://ecommerce-backend-xfez.onrender.com/images/headphones.jpg"
+
     },
     {
         _id: "2",
@@ -13,7 +14,8 @@ const products = [
         description: "High precision wired gaming mouse with RGB lights.",
         price: 1499,
         category: "Electronics",
-        image: "/images/mouse.jpg"
+        image: "https://ecommerce-backend-xfez.onrender.com/images/mouse.jpg"
+
     },
     {
         _id: "3",
@@ -21,7 +23,8 @@ const products = [
         description: "Light weight running shoes for daily workouts.",
         price: 2499,
         category: "Sportswear",
-        image: "/images/shoes.jpg"
+        image: "https://ecommerce-backend-xfez.onrender.com/images/shoes.jpg"
+
     },
     {
         _id: "4",
@@ -29,7 +32,8 @@ const products = [
         price: 55.99,
         description: "Stylish jacket for all seasons",
         category: "men's clothing",
-        image: "/images/jacket.jpg"
+        image: "https://ecommerce-backend-xfez.onrender.com/images/jacket.jpg"
+
     },
     {
         _id: "5",
@@ -37,7 +41,8 @@ const products = [
         price: 39.99,
         description: "Durable and trendy backpack",
         category: "women's clothing",
-        image: "/images/bag.jpg"
+        image: "https://ecommerce-backend-xfez.onrender.com/images/bag.jpg"
+
     },
 
 ];

@@ -17,12 +17,14 @@ app.use(cors({
 }));
 app.use(express.json());
 
+app.use("/images", express.static("public/images"));
+
 // Test route
 app.get("/", (req, res) => {
   res.json({ message: "Backend is working!" });
 });
 
-app.use("/images", express.static("public/images"));
+
 // Main routes
 app.use("/api/products", productRoutes);
 app.use("/api/auth", authRoutes);
